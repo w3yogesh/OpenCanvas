@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.options-cont{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: lightblue;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+img{
+    display: block;
+}
+.tools-cont{
+    display: flex;
+    height: 5rem;
+    width: 60vw;
+    background-color: lightgreen;
+    justify-content: space-around;
+    position: absolute;
+    top: 1rem;
+    left: 20vw;
+}
+.tools-cont > *{
+    display: block;
+    width: 4rem;
+}
+.pencil-tool-cont{
+    height: 5rem;
+    width: 6rem;
+    background-color: lightblue;
+    position: absolute;
+    top: 6rem;
+    left: 20vw;
+    display: none;
+}
+.pencil-width-cont{
+    background-color: orange;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pencil-width-cont input{
+    width: 80%;
+}
+.pencil-color-cont{
+    background-color: yellow;
+    height: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.pencil-color{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.eraser-tool-cont{
+    display: none;
+    height: 2rem;
+    width: 7rem;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7rem;
+    left: 35vw;
+}
+.eraser-tool-cont input{
+    width: 80%;
+}
+.sticky-cont{
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}
+.header-cont{
+    height: 2rem;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-cont > *{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+.minimize{
+    background-color: green;
+}
+.remove{
+    background-color: red;
+
+}
+.note-cont{
+    height: calc(100% - 2rem);
+    background:#eee;
+    border: 1px solid #252525;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
